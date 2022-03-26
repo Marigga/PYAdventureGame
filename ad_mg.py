@@ -134,7 +134,7 @@ def mission_complete():
         destination = input("Would you like to land?\n"
                             "Type 'y' for yes and 'n' for no.\n").lower()
         if destination == "y":
-            mission_complete()
+            new_game()
             break
         elif destination == "n":
             print_pause("You failed the mission! Goodbye!")
